@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import AnimatedCursor from "react-animated-cursor";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import LeftHand from "./components/LeftHand";
 import Navbar from "./components/Navbar";
@@ -47,7 +47,7 @@ function App() {
     );
   } else {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <LeftHand />
         <div className="bg-gray-900">
           <div
@@ -86,7 +86,7 @@ function App() {
             </Routes>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
