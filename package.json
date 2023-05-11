@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/sohag-chowwdhury/bioV2",
   "name": "bio",
   "version": "0.1.0",
   "private": true,
@@ -33,7 +32,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -58,6 +56,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.8.0"
+    "eslint-config-prettier": "^8.8.0",
+    "gh-pages": "^5.0.0"
   }
 }

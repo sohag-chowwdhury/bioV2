@@ -1,0 +1,86 @@
+.background {
+  background: linear-gradient(#000000, #000000);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.scrollText {
+  font-size: 1.5rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  height: 10rem;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+}
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  width: 100%;
+}
+.card2 {
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  height: 35rem;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.parallax {
+  margin-right: 5%;
+}
+.parallax2 {
+  margin-right: 0%;
+}
+
+.sticky {
+  margin-left: 5%;
+  background-color: rgba(23, 29, 39, 0.1);
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.purple {
+  background-color: rgba(27, 16, 32, 0.3);
+}
+
+@media (max-width: 750px) {
+  .card {
+    display: none;
+  }
+  .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 10rem;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 5%;
+  }
+  .hide {
+    display: none;
+  }
+  .parallax {
+    margin-right: 1.5rem;
+  }
+
+  .sticky {
+    margin-left: 1.5rem;
+  }
+}
