@@ -2,7 +2,6 @@ import { Link } from "react-scroll";
 
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
 const navigation = [
   { ID: "01.", name: "About", href: "#", of: "-80", current: false },
   { ID: "02.", name: "Experience", href: "#Experience", current: false },
@@ -52,17 +51,14 @@ export default function Navbar() {
                     className="text-gray-300   ,
                           'rounded-md px-10 sm:px-0 py-2 text-sm font-medium"
                   >
-                    <p className="font-danc text-green-300 px-10 sm:px-0  font-bold text-4xl">
-                      {" "}
-                      Sohag <span className="text-sm">Chowdhury</span>
-                    </p>
+                    <div className="">
+                      <div className="text-2xl sm:text-4xl text-gray-400 font-bold font-mono">SOHAG</div>
+                      <div className=" -mt-6 text-3xl text-gray-700 sm:text-4xl xl:5xl font-bold font-danc" >chowdhury</div>
+                    </div>
                   </Link>
                 </div>
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="w-12"
-                    src="https://i.stack.imgur.com/4jEew.gif"
-                  ></img>
+                
                 </div>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">

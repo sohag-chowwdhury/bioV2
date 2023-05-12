@@ -139,7 +139,7 @@ export default function Example() {
           className="lg:col-start-6 mt-12   mx-10 sm:mx-0  lg:col-end-8"
         >
           <img
-            className="img_d  border-r-8 border-b-8 border-green-400 font-semibold transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out"
+            className="img_d font-semibold transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out"
             src="https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2FsohagJpg-PhotoRoom.png?alt=media&token=7197bdfd-42ea-46fe-8a62-778a73771513"
             style={{ "--c": "#668284", "--b": "1px", "--s": "18px" }}
             alt="an old car"

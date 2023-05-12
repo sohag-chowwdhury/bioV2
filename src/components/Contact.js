@@ -128,6 +128,10 @@ function Contact() {
             </a>
           </div>
         </div>
+        
+
+
+        
         <div className="mt-10 top-[10%] col-start-3 col-end-7 ">
           <p className="mt-10 text-gray-500 text-sm font-sans mb-2 font-semibold text-center">
             {" "}
@@ -137,7 +141,63 @@ function Contact() {
             {" "}
             WhatsApp : <span className="text-gray-500"> (+880)-1781559196</span>
           </p>
+           <span className="text-center mx-[25%] sm:hidden">
+           <a
+              href="https://www.instagram.com/sohago2.c/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="rounded-full bg-transparent mt-1 p-2 text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-transparent"
+              >
+                {" "}
+                <img src="https://img.icons8.com/ios-filled/28/12B886/instagram-new--v1.png" />
+              </button>
+            </a>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100008064076579"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="rounded-full bg-transparent p-2 mt-1 text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-transparent"
+              >
+                {" "}
+                <img src="https://img.icons8.com/ios-filled/28/12B886/facebook-new.png" />
+              </button>
+            </a>
+            
+            <a
+              href="https://www.linkedin.com/in/sohag02/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="rounded-full bg-transparent p-2 mt-1 text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-transparent"
+              >
+                <img src="https://img.icons8.com/ios-filled/28/12B886/linkedin-circled--v1.png" />
+              </button>
+            </a>
+            <a
+              href="https://github.com/sohag-chowwdhury"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button
+                type="button"
+                className="rounded-full bg-transparent p-2 mt-1 text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-transparent"
+              >
+                <img src="https://img.icons8.com/material-outlined/30/12B886/github.png" />
+              </button>
+            </a>
+           </span>
         </div>
+
+
       </div>
     </>
   );

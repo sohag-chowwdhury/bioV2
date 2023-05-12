@@ -291,7 +291,8 @@ export default function Work() {
                   bid on various tokens and NFTs. The platform utilizes
                   blockchain technology to ensure transparency and security in
                   the bidding process. With DefiBids, users can buy and sell
-                  digital assets in a decentralized, peer-to-peer marketplace.
+                  digital assets in a decentralized, peer-to-peer marketplace and my role was <span className="text-green-300">designe</span>
+                  
                 </p>
               </div>
               <div className="text-start md:text-end">
