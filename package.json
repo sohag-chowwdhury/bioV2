@@ -26,8 +26,10 @@
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
+    "react-scroll-wheel-handler": "^2.2.0",
     "react-type-animation": "^3.0.1",
     "react-use-measure": "^2.1.1",
+    "react-waypoint": "^10.3.0",
     "styled-components": "^5.3.9",
     "three-raymarcher": "^0.2.21",
     "web-vitals": "^2.1.4"

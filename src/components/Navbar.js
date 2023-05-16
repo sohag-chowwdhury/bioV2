@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import { useWheel } from "../Context/Wheel";
 
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -13,7 +14,9 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar() {
+export default function Navbar({value}) {
+  const {  wheelPossition } = useWheel() 
+
   return (
     <Disclosure
       as="nav"
@@ -48,6 +51,7 @@ export default function Navbar() {
                     smooth={true}
                     offset={-80}
                     duration={1000}
+                    
                     className="text-gray-300   ,
                           'rounded-md px-10 sm:px-0 py-2 text-sm font-medium"
                   >
@@ -61,7 +65,7 @@ export default function Navbar() {
                 
                 </div>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
+              <div className={`${wheelPossition < 8 ? "hidden":"flex flex-1 items-center justify-center sm:items-stretch sm:justify-end"}`}>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
@@ -69,6 +73,7 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         to={`${item.name}`}
+                       
                         spy={true}
                         smooth={true}
                         offset={-80}
@@ -84,7 +89,7 @@ export default function Navbar() {
                     ))}
                     <a
                       className="mt-2"
-                      href="https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2Fsohag_resume.pdf?alt=media&token=c8bbfe99-3e6a-455c-970a-70732cb01856"
+                      href="https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2Fresume_sohag.pdf?alt=media&token=1a61f3c4-1b02-4717-9f0c-dcbe666b3bf9"
                       target="_blank"
                       download
                       rel="noreferrer"
@@ -99,7 +104,8 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-            </div>
+                 <span  className={`${ wheelPossition > 1 &&  wheelPossition < 4 ? "": 'hidden'}`}> <img className="w-36" src="https://www.kidlo.com/html5_games/loading_for_game.gif"></img></span>
+               </div>
           </div>
 
           <Disclosure.Panel className="sm:hidden bg-gray-900">
@@ -126,7 +132,22 @@ export default function Navbar() {
                     {item.name}
                   </p>
                 </Link>
+                
               ))}
+               <a
+                      className="mt-4 mx-3"
+                      href="https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2Fresume_sohag.pdf?alt=media&token=1a61f3c4-1b02-4717-9f0c-dcbe666b3bf9"
+                      target="_blank"
+                      download
+                      rel="noreferrer"
+                    >
+                      <button
+                        type="button"
+                        className="flot-center  text-xs px-7 py-2  bg-gray-800 text-sm font-semibold text-green-300 shadow-sm ring-1 ring-inset ring-green-300 hover:bg-gray-700"
+                      >
+                        Resume
+                      </button>
+                    </a>
             </div>
           </Disclosure.Panel>
         </>

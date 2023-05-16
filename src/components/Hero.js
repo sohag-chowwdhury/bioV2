@@ -1,8 +1,17 @@
 import { Link } from "react-scroll";
+import { useWheel } from "../Context/Wheel";
+
 function Hero() {
+  const {  wheelPossition } = useWheel() 
+
   return (
-    <div className="grid grid-cols-1  md:grid-cols-6 gap-0 sm:gap-4" id="Hero">
-      <div className="lg:col-start-2 col-span-4 p-10 lg:max-w-5xl sm:max-w-5xl py-5 sm:py-48 lg:py-56">
+     <div
+    className="bg-hero"
+    id="Hero"
+  >
+     <div className="w-full h-full   bg-gray-900/90 backdrop-brightness-40">
+    <div className=" grid grid-cols-1  md:grid-cols-6 gap-0 sm:gap-4" id="Hero">
+      <div className="lg:col-start-2 col-span-4 p-10 lg:max-w-5xl lg:col-end-5 sm:max-w-5xl py-5 sm:py-48 lg:py-56">
         <p className="mt-6 text-lg py-5 font-sans mx-0 sm:mx-2 leading-8 text-green-300">
           Hi, my name is
         </p>
@@ -40,6 +49,12 @@ function Hero() {
           ></a>
         </div>
       </div>
+      <div className={`${ wheelPossition < 8 ? 'lg:col-start-5 hidden lg:block col-span-4 p-10 mt-8 lg:max-w-5xl lg:col-end-6 sm:max-w-5xl py-5 sm:py-48 lg:py-56' : 'hidden'}`}>
+      <img className="mt-12 w-36 " src="https://www.limos4.com/wp-content/uploads/2021/09/mouse-1.gif"></img>
+      </div>
+     
+    </div>
+    </div>
     </div>
   );
 }

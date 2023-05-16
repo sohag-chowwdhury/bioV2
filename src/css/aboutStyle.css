@@ -1,3 +1,51 @@
+.table {
+  position: absolute;
+  right: 4%;
+  bottom: -4%;
+  width: 30em;
+}
+.pc{
+  position: absolute;
+  right: 4%;
+  bottom: 17%;
+  width: 25em;
+}
+.load{
+  position: absolute;
+  right: 35%;
+  bottom: 32%;
+  width:8em;
+}
+.man {
+  position: absolute;
+  right: 30%;
+  bottom: 6%;
+  width: 22em;
+}
+.leftTop {
+  position: absolute;
+  right: 40%;
+  bottom: 45%;
+  width: 25em;
+}
+.watch {
+  position: absolute;
+  left: 70%;
+  bottom: 75%;
+  width: 25em;
+}
+.cat{
+  position: absolute;
+  left: 70%;
+  bottom: 15.8em;
+  width: 25em;
+}
+.rightTop{
+  position: absolute;
+  left: 30%;
+  bottom: 33%;
+  width: 25em;
+}
 .img_d {
   --s: 40px; /* size of the frame */
   --b: 2px; /* border thickness */
@@ -21,3 +69,5 @@
   outline-offset: calc(var(--s) / -2);
   --_i: calc(100% - 2 * var(--s));
 }
+
+

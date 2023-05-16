@@ -17,7 +17,10 @@ module.exports = {
 
 
 
-      }
+      },
+      backgroundImage: {
+        'hero': "url('https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2Ftamalsen-home-cover%20(1).jpg?alt=media&token=2de03026-5d8d-4771-8f56-96d1c29ca307')",
+      },
     },
   },
   plugins: [],

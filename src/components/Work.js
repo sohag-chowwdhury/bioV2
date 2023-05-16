@@ -13,6 +13,9 @@ export default function Work() {
     <>
       <div
         id="Experience"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
         className="grid grid-cols-1 mt-20 mx-3  lg:grid-cols-8 gap-4"
       >
         <div className="lg:col-start-2 md:ml-20 mt-20 px-5 sm:px-20 lg:col-end-8">
@@ -25,8 +28,8 @@ export default function Work() {
             </div>
             <div className="relative flex justify-start">
               <h1 className="text-2xl font-oswald font-bold  text-gray-400 sm:text-3xl md:text-4xl">
-                {" "}
-                <span className="text-green-400">02. </span> Where I've worked{" "}
+                
+                <span className="text-green-400">02. </span> Where I've worked
               </h1>
             </div>
           </div>
@@ -43,8 +46,8 @@ export default function Work() {
                 }
               >
                 <span className="text-green-400  mx-2 hidden sm:inline">
-                  01.{" "}
-                </span>{" "}
+                  01.
+                </span>
                 Ioty Signalfow
               </button>
               <button
@@ -109,7 +112,7 @@ export default function Work() {
                   </span>
                 </h1>
                 <h3 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-500 text-xs sm:text-lg">
-                  2022 January - 2023 March
+                  2022 January - 2023 March (Remotely)
                 </h3>
                 <p className="font-sans font-semibold text-sm  leading-8 text-gray-400">
                   <FontAwesomeIcon
@@ -117,10 +120,10 @@ export default function Work() {
                     icon={faArrowAltCircleRight}
                   />
                   Using Vue, Vuetify, and Firebase, I created and styled
-                  interactive web applications for Ioty Signalflow.{" "}
+                  interactive web applications for Ioty Signalflow.
                 </p>
                 <p className="font-sans font-semibold text-sm  leading-8 text-gray-400">
-                  {" "}
+                  
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
@@ -128,7 +131,7 @@ export default function Work() {
                   Build a database migrate tools from development to productions
                 </p>
                 <p className="font-sans font-semibold  text-sm leading-8 text-gray-400">
-                  {" "}
+                 
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
@@ -137,43 +140,43 @@ export default function Work() {
                   make sure they were responsive and cross-browser compatible
                 </p>
                 <p className="font-sans font-semibold  text-sm leading-8 text-gray-400">
-                  {" "}
+                  
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
                   />
                   Update the admin panel to create projects, packages, and build
-                  customize filter methods.{" "}
+                  customize filter methods.
                 </p>
               </span>
 
               <span className={open === 1 ? "" : "hidden "}>
                 <h1 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-400 text-sm sm:text-xl mt-3">
-                  Full-Stack web app developer{" "}
+                  Full-Stack web app developer
                   <span className="text-green-400">
                     <a
                       href="https://tilaus.apukuski.com/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {" "}
-                      @ Apukuski{" "}
+                     
+                      @ Apukuski
                     </a>
                   </span>
                 </h1>
                 <h3 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-500 text-xs sm:text-lg">
-                  {" "}
-                  2021 February — Dec 2021
+                 
+                  2021 February — Dec 2021 (Remotely)
                 </h3>
                 <p className="font-sans font-semibold text-sm  leading-8 text-gray-400">
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
                   />
-                  Build a moving and Delivery Survice web App app{" "}
+                  Build a moving and Delivery Survice web App app
                 </p>
                 <p className="font-sans font-semibold text-sm  leading-8 text-gray-400">
-                  {" "}
+                  
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
@@ -183,7 +186,7 @@ export default function Work() {
                   and stakeholders.
                 </p>
                 <p className="font-sans font-semibold  text-sm leading-8 text-gray-400">
-                  {" "}
+                  
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
@@ -195,30 +198,30 @@ export default function Work() {
 
               <span className={open === 2 ? "" : "hidden "}>
                 <h1 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-400 text-sm sm:text-xl mt-3">
-                  Designer{" "}
+                  Designer
                   <span className="text-green-400">
                     <a
                       href="https://defibids.com/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {" "}
+                      
                       @ Defibids
-                    </a>{" "}
+                    </a>
                   </span>
                 </h1>
                 <h3 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-500 text-xs sm:text-lg">
-                  2020 January - 2020 June
+                  2020 January - 2020 June (Remotely)
                 </h3>
                 <p className="font-sans font-semibold text-sm  leading-8 text-gray-400">
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
                   />
-                  Developed and styled interactive web applications for Defibids{" "}
+                  Developed and styled interactive web applications for Defibids
                 </p>
                 <p className="font-sans font-semibold text-sm  leading-8 text-gray-400">
-                  {" "}
+                  
                   <FontAwesomeIcon
                     className="text-green-400 mr-2"
                     icon={faArrowAltCircleRight}
@@ -231,7 +234,7 @@ export default function Work() {
 
               <span className={open === 3 ? "" : "hidden "}>
                 <h1 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-400 text-sm sm:text-xl mt-3">
-                  Web Design and Development{" "}
+                  Web Design and Development
                   <span className="text-gray-200"> @ as Freelancer </span>
                 </h1>
                 <h3 className="text-4xl mt-2 font-sans font-semibold font-bold  text-gray-500 text-xs sm:text-lg">
@@ -246,7 +249,7 @@ export default function Work() {
                   specializing in front-end technologies such as Vue, React,
                   Bootstrap, and Vuetify. During this time, I have gained
                   extensive experience in building responsive and user-friendly
-                  web applications for clients across various industries{" "}
+                  web applications for clients across various industries
                 </p>
               </span>
             </div>

@@ -141,7 +141,7 @@ function Contact() {
             {" "}
             WhatsApp : <span className="text-gray-500"> (+880)-1781559196</span>
           </p>
-           <span className="text-center mx-[25%] sm:hidden">
+           <span className="text-center ml-[29%] sm:hidden">
            <a
               href="https://www.instagram.com/sohago2.c/"
               target="_blank"

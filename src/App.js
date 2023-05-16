@@ -2,10 +2,14 @@ import { useEffect, useState } from "react";
 import AnimatedCursor from "react-animated-cursor";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
+import { Waypoint } from 'react-waypoint';
+import { WheelProvider } from './Context/Wheel';
 import LeftHand from "./components/LeftHand";
 import Navbar from "./components/Navbar";
 import RightHand from "./components/RightHand";
 import Home from "./pages/Home";
+
+
 
 function App() {
   const [load, setLoad] = useState(true);
@@ -47,7 +51,12 @@ function App() {
     );
   } else {
     return (
+      <WheelProvider>
       <HashRouter>
+        <Waypoint onEnter={({ previousPosition, currentPosition, event }) => {
+          console.log(previousPosition, currentPosition, event)
+  }}
+/>
         <LeftHand />
         <div className="bg-gray-900">
           <div
@@ -84,9 +93,13 @@ function App() {
             <Routes>
               <Route exact path="/" element={<Home />} />
             </Routes>
+           
+          
           </div>
+         
         </div>
       </HashRouter>
+      </WheelProvider>
     );
   }
 }
