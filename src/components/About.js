@@ -15,7 +15,7 @@ export default function Example( {value}) {
               className="absolute inset-0 flex items-center"
               aria-hidden="true"
             >
-              <div className="w-[40%] ml-[36%] sm:ml-[40%] md:ml-[35%] lg:ml-[45%] lg:mt-6 xl:ml-[50%] 2xl:ml-[25%] xl:mt-8 2xl:mt-12 border-t-2 border-gray-700" />
+              <div className="w-[40%] ml-[36%] sm:ml-[40%] md:ml-[35%] lg:ml-[45%] lg:mt-6 xl:ml-[50%] 2xl:ml-[30%] xl:mt-8 2xl:mt-12 border-t-2 border-gray-700" />
             </div>
             <div  className="relative flex justify-start animated">
               <h1  className={`${value  ===2 ? 'text-2xl lg:mt-[5%] 2xl:-[0%] font-oswald font-bold  text-gray-300 sm:text-3xl md:text-5xl' : 'text-2xl font-oswald font-bold lg:mt-[5%] 2xl:-[0%] text-gray-400 sm:text-3xl md:text-4xl' }`}>

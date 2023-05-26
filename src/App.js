@@ -3,7 +3,6 @@ import AnimatedCursor from "react-animated-cursor";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import { Waypoint } from 'react-waypoint';
-import { WheelProvider } from './Context/Wheel';
 import LeftHand from "./components/LeftHand";
 import Navbar from "./components/Navbar";
 import RightHand from "./components/RightHand";
@@ -51,7 +50,6 @@ function App() {
     );
   } else {
     return (
-      <WheelProvider>
       <HashRouter>
         <Waypoint onEnter={({ previousPosition, currentPosition, event }) => {
           console.log(previousPosition, currentPosition, event)
@@ -99,7 +97,6 @@ function App() {
          
         </div>
       </HashRouter>
-      </WheelProvider>
     );
   }
 }

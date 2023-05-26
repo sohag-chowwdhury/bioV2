@@ -9,6 +9,7 @@ import { createContext, useContext, useEffect, useState } from "react";
       if(window.innerWidth < 1025 ) {
         setwheelPossition(15)
       }
+      else setwheelPossition(15)
     
     })
     const [wheelPossition, setwheelPossition] = useState(1);

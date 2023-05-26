@@ -20,7 +20,7 @@ export default function Navbar({value}) {
   return (
     <Disclosure
       as="nav"
-      className="bg-gray-900 sticky z-20 top-0  h-20   shadow-xs"
+      className="bg-gray-900 sticky z-20 top-0  h-15   shadow-xs  border-b border-gray-800"
     >
       {({ open }) => (
         <>
@@ -104,6 +104,7 @@ export default function Navbar({value}) {
                   </div>
                 </div>
               </div>
+                 {/* <button className="ml-5"><img width="32" height="32" src="https://img.icons8.com/emoji/48/crescent-moon-emoji.png" alt="crescent-moon-emoji"/></button> */}
                  <span  className={`${ wheelPossition > 1 &&  wheelPossition < 4 ? "": 'hidden'}`}> <img className="w-36" src="https://www.kidlo.com/html5_games/loading_for_game.gif"></img></span>
                </div>
           </div>
