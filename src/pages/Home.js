@@ -5,7 +5,6 @@ import Contact from "../components/Contact"
 import Hero from "../components/Hero"
 import OtherProject from "../components/OtherProject"
 import ProjectInfo from "../components/ProjectInfo"
-import ScrollText from "../components/ScrollText"
 import Work from "../components/Work"
 import '../css/effect.css'
 
@@ -22,10 +21,8 @@ function Home() {
       
         <div className="hidden lg:block">  
         
-              <Hero  /> 
-              <About value={wheelPossition}   />  
-                <ScrollText  value={wheelPossition} />
-        
+          <Hero  /> 
+          <About value={wheelPossition}   />  
           <Work   />    
           <ProjectInfo />
           <OtherProject  />

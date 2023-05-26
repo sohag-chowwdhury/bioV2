@@ -7,9 +7,9 @@ export default function Example( {value}) {
   return (
     <>
      
-            <div id="About"  className=" grid grid-cols-1 mt-12 mx-3 bg-gray-900  lg:grid-cols-8 gap-4">
+            <div  className="grid grid-cols-1 mt-12 mx-3 bg-gray-900  lg:grid-cols-8 gap-4">
                
-        <div className="lg:col-start-2 lg:min-h-[550px] mt-4 min-h-96  px-5 sm:px-12 lg:col-end-6">
+        <div  id="About" className="lg:col-start-2 lg:min-h-[550px] mt-4 min-h-96  px-5 sm:px-12 lg:col-end-6">
           <div   className={`${value <2  ? 'hidden':'relative'}`} >
             <div
               className="absolute inset-0 flex items-center"
@@ -55,7 +55,7 @@ export default function Example( {value}) {
             projects in my previous jobs, I have the experience of suggesting
             better solutions rather than jumping straight to projects that will
             have no impact on visitors. Whether it is a small SPA or an
-            enterprise level project, me and my team aspire to get the best
+            enterprise level project, my aspire to get the best
             result for your endeavor
            
              </div>

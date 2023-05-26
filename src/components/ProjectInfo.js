@@ -8,33 +8,35 @@ export default function Work() {
 
   return (
     <>
-      <div className="grid grid-cols-1    lg:grid-cols-8 " id="Work">
-      <div class=" right-[36%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
-  <div class=" bottom-44 -left-64 hidden h-[150px] w-[900px] -rotate-45 rounded-3xl bg-gradient-to-r from-violet-600 to-indigo-800 opacity-30 blur-3xl filter dark:block lg:bottom-24 lg:-left-20 lg:h-36 lg:w-[250px] lg:-rotate-12 lg:opacity-20 xl:h-40 xl:w-[400px]"></div>
-  <div class=" left-[36%] top-36 hidden rotate-12 rounded-3xl bg-sky-800 opacity-90 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[600px]"></div>
-  <div class=" h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:bottom-24 lg:-left-36 lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-left-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
-  <div class=" right-[36%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
-  <div class=" h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:bottom-20 lg:-left-36 lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-left-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
-  <div class=" hidden h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:top-24 lg:-right-36 lg:block lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-right-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
-  <div class=" hidden h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:top-20 lg:-right-36 lg:block lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-right-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
-        <div className="lg:col-start-2 mt-2 -mt-[12%] sm:mt-[10%] lg:col-end-8">
-          <div className="relative my-7">
+      <div className="grid grid-cols-1 mt-20   lg:grid-cols-8 " id="Work">
+        
+        <div className="lg:col-start-2 mt-20 lg:col-end-8">
+        <div class=" right-[70%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
+  <div class=" bottom-44 -left-64 hidden h-[150px] w-[900px] -rotate-45 rounded-3xl bg-gradient-to-r from-violet-600 to-indigo-800 opacity-30 blur-3xl filter dark:block lg:bottom-24 lg:-left-20 lg:h-70 lg:w-[250px] lg:-rotate-12 lg:opacity-20 xl:h-40 xl:w-[400px]"></div>
+  <div class=" left-[70%] top-70 hidden rotate-12 rounded-3xl bg-sky-800 opacity-90 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[600px]"></div>
+  <div class=" h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:bottom-24 lg:-left-70 lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-left-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
+  <div class=" right-[70%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
+  <div class=" h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:bottom-20 lg:-left-70 lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-left-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
+  <div class=" hidden h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:top-24 lg:-right-70 lg:block lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-right-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
+  <div class=" hidden h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:top-20 lg:-right-70 lg:block lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-right-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
+     
+          <div className="relative my-7 -mt-[45%] md:mt-4">
             <div
-              className=" inset-0  flex items-center"
+              className="absolute inset-0 flex items-center"
               aria-hidden="true"
             >
-              <div className="w-[20%] ml-[70%] sm:w-[40%] md:ml-[50%] sm:ml-[60%] lg:ml-[60%] xl:ml-[50%] 2xl:ml-[35%] border-t-2  sm:mt-1 border-gray-700" />
+              <div className="w-[20%] ml-[60%] sm:w-[40%] md:ml-[50%] sm:ml-[60%] lg:ml-[60%] xl:ml-[50%] 2xl:ml-[35%] border-t-2 mt-1 border-gray-700" />
             </div>
-            <div className="relative flex justify-start -mt-4">
+            <div className="relative flex justify-start">
               <h1 className="text-2xl font-oswald font-bold  text-gray-400 sm:text-3xl md:text-4xl mx-8">
-              
+                {" "}
                 <span className="text-green-300">03. </span> Some Things I’ve
-                Built
+                Built{" "}
               </h1>
             </div>
           </div>
 
-          <div className="grid  grid-cols-1 md:grid-cols-8  mt-8">
+          <div className="grid  grid-cols-1 md:grid-cols-8 -mt-[5%]  md:mt-12">
             <div
               data-aos-duration="1000"
               data-aos="zoom-out-right"
@@ -55,7 +57,7 @@ export default function Work() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div class=" bottom-0 rounded left-0 right-0 top-0 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out  h-full w-full overflow-hidden bg-[hsl(142.1,76.2%,36.3%,0.5)] bg-fixed opacity-.9 transition duration-300 ease-in-out hover:opacity-0"></div>
+                  <div class="absolute bottom-0 rounded left-0 right-0 top-0 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out  h-full w-full overflow-hidden bg-[hsl(142.1,76.2%,36.3%,0.5)] bg-fixed opacity-.9 transition duration-300 ease-in-out hover:opacity-0"></div>
                 </a>
               </div>
             </div>
@@ -242,7 +244,7 @@ export default function Work() {
                 data-te-ripple-color="light"
               >
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2Fapukuski.JPG?alt=media&token=081298e3-236a-4b3a-9c2e-14faf2bba8f5"
+                  src="https://firebasestorage.googleapis.com/v0/b/student-blog-80add.appspot.com/o/personal%2Fapukuski.JPG?alt=media&token=081298e3-228a-4b3a-9c2e-14faf2bba8f5"
                   class="w-full rounded transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out "
                   alt="Louvre"
                 />
@@ -251,7 +253,7 @@ export default function Work() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div class=" bottom-0 rounded left-0 right-0 top-0 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out  h-full w-full overflow-hidden bg-[hsl(142.1,76.2%,36.3%,0.5)] bg-fixed opacity-.9 transition duration-300 ease-in-out hover:opacity-0"></div>
+                  <div class="absolute bottom-0 rounded left-0 right-0 top-0 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out  h-full w-full overflow-hidden bg-[hsl(142.1,76.2%,36.3%,0.5)] bg-fixed opacity-.9 transition duration-300 ease-in-out hover:opacity-0"></div>
                 </a>
               </div>
             </div>
@@ -278,7 +280,7 @@ export default function Work() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div class=" bottom-0 rounded left-0 right-0 top-0 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out  h-full w-full overflow-hidden bg-[hsl(142.1,76.2%,36.3%,0.5)] bg-fixed opacity-.9 transition duration-300 ease-in-out hover:opacity-0"></div>
+                  <div class="absolute bottom-0 rounded left-0 right-0 top-0 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out  h-full w-full overflow-hidden bg-[hsl(142.1,76.2%,36.3%,0.5)] bg-fixed opacity-.9 transition duration-300 ease-in-out hover:opacity-0"></div>
                 </a>
               </div>
             </div>
@@ -337,7 +339,7 @@ export default function Work() {
               </div>
               <div className="text-start md:text-end px-3 md:px-0">
                 <a
-                  href="https://www.youtube.com/watch?v=Wa4_z36WMa0&list=PLQh5KZyBzNLBNiZyNKXaIsps_acnQTu1W&index=1"
+                  href="https://www.youtube.com/watch?v=Wa4_z28WMa0&list=PLQh5KZyBzNLBNiZyNKXaIsps_acnQTu1W&index=1"
                   target="_blank"
                   rel="noreferrer"
                 >

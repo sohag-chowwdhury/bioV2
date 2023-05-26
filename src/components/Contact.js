@@ -49,7 +49,7 @@ function Contact() {
   <div class=" h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:bottom-20 lg:-left-70 lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-left-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
   <div class=" hidden h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:top-24 lg:-right-70 lg:block lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-right-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
   <div class=" hidden h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:top-20 lg:-right-70 lg:block lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-right-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
-        <div className="lg:col-start-2 -mt-[20%] sm:mt-4 px-5 sm:px-12 lg:col-end-6">
+        <div className="lg:col-start-2 -mt-[35%] sm:-mt-[20%] md:mt-4 px-5 sm:px-12 lg:col-end-6">
           <div className="relative">
             <div
               className="absolute inset-0 flex items-center"
@@ -66,7 +66,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="sm:col-start-1 mt-4 px-0 md:px-12 sm:col-end-12 lg:col-start-2 lg:col-end-8">
+        <div className="sm:col-start-1 -mt-[20%] md:mt-4 px-0 md:px-12 sm:col-end-12 lg:col-start-2 lg:col-end-8">
           {review.map((item, index) => (
             <div
               className="bg-gray-800 shadow-xl hover:bg-slate-800 p-2 hover:my-1"

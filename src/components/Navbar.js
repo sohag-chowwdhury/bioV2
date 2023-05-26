@@ -57,7 +57,7 @@ export default function Navbar({value}) {
                   >
                     <div className="">
                       <div className="text-2xl sm:text-4xl text-gray-400 font-bold font-mono">SOHAG</div>
-                      <div className=" -mt-6 text-3xl text-gray-700 sm:text-4xl xl:5xl font-bold font-danc" >chowdhury</div>
+                      <div className=" -mt-6 text-3xl text-gray-700 sm:text-4xl xl:5xl font-bold font-danc" >chowdhury..</div>
                     </div>
                   </Link>
                 </div>
@@ -113,13 +113,14 @@ export default function Navbar({value}) {
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Link
-                  key={item.name}
-                  href={item.href}
-                  to={`${item.name}`}
-                  spy={true}
-                  smooth={true}
-                  offset={-80}
-                  duration={1000}
+                key={item.name}
+                href={item.href}
+                to={`${item.name}`}
+                spy={true}
+                activeClass="active"
+                smooth={true}
+                offset={80}
+                duration={1000}
                   className={classNames(
                     item.current
                       ? "bg-gray-900 text-white"
