@@ -19,8 +19,9 @@ function Home() {
 
     return (  
       <>
+      
         <div className="hidden lg:block">  
-            
+        
               <Hero  /> 
               <About value={wheelPossition}   />  
                 <ScrollText  value={wheelPossition} />
@@ -40,7 +41,6 @@ function Home() {
           <Contact />
          </div> 
         </div>
-        
         </> 
     )}
 

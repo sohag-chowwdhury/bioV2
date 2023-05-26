@@ -25,7 +25,7 @@ export default function Example( {value}) {
               </h1>
             </div>
           </div>
-          <p   className={`${value < 8 ? 'mt-3   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 3-animate-right' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 3' }`}>
+          <p   className={`${value < 8 ? 'mt-4   text-sm sm:text-lg font-sans font-bold  leading-6 text-gray-400 3-animate-right' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 3' }`}>
           <span className={`${value <3  ? 'hidden':''}`}>
              <div  className="w3-animate-left">
             Hello! I'm Sohag, and I enjoy creating things for the internet. My
@@ -36,7 +36,7 @@ export default function Example( {value}) {
 
              
             <span className={`${value <4  ? 'hidden':''}`}>
-            <div  className={`${value  <8 ? 'mt-3   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`}>
+            <div  className={`${value  <8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-6 text-gray-400 w3-animate-left' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`}>
            
             As a sophisticated
             <span className="text-green-400 font-semibold">
@@ -48,7 +48,7 @@ export default function Example( {value}) {
             </span>
 
             <span className={`${value <5  ? 'hidden':''}`}>
-             <div className={`${value <8 ? 'mt-1   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-right' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`}  >
+             <div className={`${value <8 ? 'mt-1   text-sm sm:text-base font-sans font-bold  leading-6 text-gray-400 w3-animate-right' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`}  >
             
              I understand what it takes to develop your idea with dependable
             solutions that's take you closer to your goals . I have managed
@@ -61,24 +61,24 @@ export default function Example( {value}) {
              </div>
              </span>
              <span className={`${value <6  ? 'hidden':''}`}>
-            <div className={`${value  <8 ? 'mt-1   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`}>
+            <div className={`${value  <8 ? 'mt-1   text-sm sm:text-base font-sans font-bold  leading-6 text-gray-400 w3-animate-left' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`}>
            
-            <p className={`${value  <8 ? 'mt-1   text-sm sm:text-lg font-oswald font-bold  leading-10 text-green-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-green-400 ' }`}>
+            <p className={`${value  <8 ? 'mt-1   text-sm sm:text-base font-sans font-bold  leading-6 text-green-400 w3-animate-left' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-green-400 ' }`}>
               Education:
             </p>
-            <p className={`${value  <8 ? 'mt-1   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`}>
+            <p className={`${value  <8 ? 'mt-1   text-sm sm:text-base font-sans font-bold  leading-6 text-gray-400 w3-animate-left' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`}>
               United International University(UIU)-
               <span>
                 Bachelor of Science (B.Sc.), Computer Science and
                 Engineering(CSE)
               </span>
             </p>
-            <p className={`${value  <8 ? 'mt-1   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`}>
+            <p className={`${value  <8 ? 'mt-1   text-sm sm:text-base font-sans font-bold  leading-6 text-gray-400 w3-animate-left' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`}>
               BCIC College-<span>Higher Secondary, Science(HSC)</span>
             </p>
            
             
-            <span className={`${value  <8 ? 'mt-3   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`}>
+            <span className={`${value  <8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-6 text-gray-400 w3-animate-left' : 'mt-4   text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`}>
              
               Here are a few technologies I’ve been working with recently:
             </span>
@@ -90,15 +90,15 @@ export default function Example( {value}) {
           </p>
           <span className={`${value <7  ? 'hidden':''}`}>
           <div  className="grid grid-cols-2">
-            <div className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'mt-3   text-sm sm:text-md font-sans font-bold  leading-10 text-gray-400 ' }`} >
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+            <div className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' : 'mt-4 lg:mt-8  font-sans text-sm sm:text-base   font-sans font-bold  leading-6 text-gray-400 ' }`} >
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' :  'text-sm  lg:mt-2  sm:text-base font-sans  leading-8 text-gray-400 font-semibold' }`}>
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
                   icon={faArrowAltCircleRight}
                 />
                 Vue
               </p>
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' :   'text-sm sm:text-base  lg:mt-2  font-sans  leading-8 text-gray-400 font-semibold' }`}>
                
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
@@ -106,7 +106,7 @@ export default function Example( {value}) {
                 />
                 React
               </p>
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' :   'text-sm sm:text-base  lg:mt-2 font-sans  leading-8 text-gray-400 font-semibold' }`}>
                 
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
@@ -114,7 +114,7 @@ export default function Example( {value}) {
                 />
                 Vuex
               </p>
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-sans font-oswald  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-fira_code font-sans  leading-8 text-gray-400 w3-animate-left' :    'text-sm sm:text-base  lg:mt-2 font-sans  leading-8 text-gray-400 font-semibold' }`}>
                 
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
@@ -124,7 +124,7 @@ export default function Example( {value}) {
               </p>
             </div>
             <div className=" w3-animate-right">
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? '   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' :    ' mt-4 text-sm sm:text-base  lg:mt-8 font-sans  leading-8 text-gray-400 font-semibold' }`}>
                 
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
@@ -132,7 +132,7 @@ export default function Example( {value}) {
                 />
                 Javascript
               </p>
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' :   'text-sm sm:text-base  lg:mt-2 font-sans  leading-8 text-gray-400 font-semibold' }`}>
                 
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
@@ -140,7 +140,7 @@ export default function Example( {value}) {
                 />
                 Node js
               </p>
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg font-oswald font-bold  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base font-sans font-bold  leading-8 text-gray-400 w3-animate-left' :   'text-sm sm:text-base  lg:mt-2 font-sans  leading-8 text-gray-400 font-semibold' }`}>
                 
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
@@ -148,7 +148,7 @@ export default function Example( {value}) {
                 />
                 Nuxt js
               </p>
-              <p className={`${value < 8 ? 'mt-2   text-sm sm:text-lg  font-oswald  leading-10 text-gray-400 w3-animate-left' : 'font-sans text-sm  leading-8 text-gray-500 font-semibold' }`}>
+              <p className={`${value < 8 ? 'mt-4   text-sm sm:text-base  font-sans  leading-8 text-gray-400 w3-animate-left' :   'text-sm sm:text-base font-sans  lg:mt-2  leading-8 text-gray-400 font-semibold' }`}>
                 
                 <FontAwesomeIcon
                   className="text-green-400 font-semibold mx-2"
