@@ -1,31 +1,37 @@
 .table {
   position: absolute;
-  right: 4%;
+  right: 0%;
   bottom: -4%;
   width: 30em;
 }
-.pc{
+.pc {
   position: absolute;
   right: 4%;
-  bottom: 17%;
+  bottom: 16%;
   width: 25em;
 }
-.load{
+.load {
   position: absolute;
   right: 35%;
   bottom: 32%;
-  width:8em;
+  width: 8em;
 }
 .man {
   position: absolute;
   right: 30%;
   bottom: 6%;
-  width: 22em;
+  width: 20em;
+}
+.window {
+  position: absolute;
+  right: -33%;
+  bottom: 65%;
+  width: 10em !important;
 }
 .leftTop {
   position: absolute;
-  right: 40%;
-  bottom: 45%;
+  right: 30%;
+  bottom: 40%;
   width: 25em;
 }
 .watch {
@@ -34,40 +40,210 @@
   bottom: 75%;
   width: 25em;
 }
-.cat{
+.popcorn {
   position: absolute;
-  left: 70%;
-  bottom: 15.8em;
-  width: 25em;
+  left: 80%;
+  bottom: 16.3em;
+  width: 4em !important;
 }
-.rightTop{
+.cat {
+  position: absolute;
+  left: 73%;
+  bottom: 15.8em;
+  width: 8em;
+}
+.rightTop {
   position: absolute;
   left: 30%;
   bottom: 33%;
   width: 25em;
 }
-.img_d {
-  --s: 40px; /* size of the frame */
-  --b: 2px; /* border thickness */
-  --w: 25em; /* width of the image */
-  --c: #1e3494;
+@media only screen and (max-width: 1540px) and (min-width: 1280px) {
+  .table {
+    position: absolute;
+    right: 0%;
+    bottom: -4%;
+    width: 25em;
+  }
 
-  width: var(--w);
-  aspect-ratio: 1;
-  object-fit: cover;
-  padding: calc(2 * var(--s));
-  --_g: var(--c) var(--b), #b10e0e00 0 calc(100% - var(--b)), var(--c) 0;
-  background: linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat,
-    linear-gradient(90deg, var(--_g)) 50% / var(--_i, 100%) 100% no-repeat;
-  outline: calc(var(--w) / 2) solid rgba(1, 58, 11, 0.2);
-  outline-offset: calc(var(--w) / -2 - 2 * var(--s));
-  transition: 0.6s;
-  cursor: pointer;
+  .man {
+    position: absolute;
+    right: 30%;
+    bottom: 6%;
+    width: 20em;
+  }
+
+  .leftTop {
+    position: absolute;
+    right: 10%;
+    bottom: 50%;
+    width: 25em;
+  }
+  .watch {
+    position: absolute;
+    left: 70%;
+    bottom: 75%;
+    width: 25em;
+  }
+  .popcorn {
+    position: absolute;
+    left: 79%;
+    bottom: 13.5em;
+    width: 3.5em !important;
+  }
+  .cat {
+    position: absolute;
+    left: 67%;
+    bottom: 13em;
+    width: 8em;
+  }
+  .rightTop {
+    position: absolute;
+    left: 20%;
+    bottom: 33%;
+    width: 25em;
+  }
+  .pc {
+    position: absolute;
+    right: 4%;
+    bottom: 13%;
+    width: 25em;
+  }
+  .window {
+    position: absolute;
+    right: -45%;
+    bottom: 70%;
+    width: 9em !important;
+  }
 }
-.img_d:hover {
-  outline: var(--b) solid var(--c);
-  outline-offset: calc(var(--s) / -2);
-  --_i: calc(100% - 2 * var(--s));
+@media only screen and (max-width: 500px) {
+  .slider-thumb::before {
+    position: absolute;
+    content: "";
+    left: -6%;
+    top: 10%;
+    width: 115%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      45deg,
+      #10ad93,
+      #043104 5%,
+      #022a4b 5%,
+      #0a0b1d 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    will-change: border-radius, transform, opacity;
+    animation: sliderShape 8s linear infinite;
+    display: block;
+    z-index: -1;
+    -webkit-animation: sliderShape 6=8s linear infinite;
+  }
+  @keyframes sliderShape {
+    0%,
+    100% {
+      border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    34% {
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+      transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    }
+    50% {
+      transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    67% {
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+      transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+  }
 }
 
+@media only screen and (max-width: 700px) and (min-width: 501px) {
+  .slider-thumb::before {
+    position: absolute;
+    content: "";
+    left: -0%;
+    top: 10%;
+    width: 90%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      45deg,
+      #10ad93,
+      #043104 5%,
+      #022a4b 5%,
+      #0a0b1d 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    will-change: border-radius, transform, opacity;
+    animation: sliderShape 8s linear infinite;
+    display: block;
+    z-index: -1;
+    -webkit-animation: sliderShape 6=8s linear infinite;
+  }
+  @keyframes sliderShape {
+    0%,
+    100% {
+      border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    34% {
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+      transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    }
+    50% {
+      transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    67% {
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+      transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+  }
+}
 
+@media only screen and (max-width: 1280px) and (min-width: 701px) {
+  .slider-thumb::before {
+    position: absolute;
+    content: "";
+    left: 0%;
+    top: 10%;
+    width: 70%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      45deg,
+      #10ad93,
+      #043104 5%,
+      #022a4b 5%,
+      #0a0b1d 10%
+    );
+    background-size: 100px 100px;
+    animation: move-it 2s linear infinite;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    will-change: border-radius, transform, opacity;
+    animation: sliderShape 8s linear infinite;
+    display: block;
+    z-index: -1;
+    -webkit-animation: sliderShape 6=8s linear infinite;
+  }
+  @keyframes sliderShape {
+    0%,
+    100% {
+      border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    34% {
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+      transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    }
+    50% {
+      transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+    67% {
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+      transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+  }
+}

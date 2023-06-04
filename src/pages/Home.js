@@ -18,26 +18,14 @@ function Home() {
 
     return (  
       <>
-      
-        <div className="hidden lg:block">  
-        
           <Hero  /> 
           <About value={wheelPossition}   />  
-          <Work   />    
+          <Work   />          
           <ProjectInfo />
           <OtherProject  />
+         
           <Contact />
-        </div>
-        <div className="lg:hidden">       
-          <Hero  /> 
-          <About value={wheelPossition}   />    
-        <div >
-          <Work   />    
-          <ProjectInfo />
-          <OtherProject  />
-          <Contact />
-         </div> 
-        </div>
+          
         </> 
     )}
 

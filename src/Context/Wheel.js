@@ -13,13 +13,21 @@ import { createContext, useContext, useEffect, useState } from "react";
     
     })
     const [wheelPossition, setwheelPossition] = useState(1);
+    const [modeValue, setModeValue] = useState('light');
     function wheel(payload) {
       const count = payload
       setwheelPossition(count)     
     }  
+    function modeSetFunc(payload) {
+      console.log(payload)
+      const mode = payload
+      setModeValue(mode)     
+    }  
     const value = {
       wheelPossition,
-      wheel
+      wheel, 
+      modeValue,
+      modeSetFunc
       
     }; 
     return (

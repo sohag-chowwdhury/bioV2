@@ -69,7 +69,7 @@ var style = {
           </div>
           <div
             style={{ height: "6em" }}
-            className="border-l-2 mt-1 ml-5 border-green-300"
+            className="border-l-2 mt-1 ml-5 dark:border-green-700 border-green-300"
           ></div>
         </div>
       </div>

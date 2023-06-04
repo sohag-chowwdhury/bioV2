@@ -32,7 +32,7 @@ export default function OtherProject() {
       description:
         "Yakkart is a cutting-edge platform designed for buying and selling used products. Using the Google Maps API, Yakkart enables users to locate nearby sellers and products with ease. Additionally, the platform features an intuitive chat system, allowing users to communicate with one another in real-time. Yakkart's location-based filter makes searching for products in specific areas simple and straightforward. With Yakkart, users can conveniently buy and sell used items while enjoying a seamless, user-friendly experience.",
       git: "",
-      live: "https://alta-events.web.app/",
+      live: "https://alta-events.web.apps/",
       video: "https://www.youtube.com/watch?v=QrZor5PwSDY&t=14s",
       tech: ["Vue", "Vuex", "Bootstrap", "Firebase"],
     },
@@ -106,13 +106,13 @@ export default function OtherProject() {
 
   return (
     <>
-      <div className="grid grid-cols-1 mt-12   lg:grid-cols-8 sm:gap-4">
-        <div className="lg:col-start-2 mt-4 mx-0 sm:mx-4 lg:col-end-8">
-          <h3 className="text-2xl font-sans font-semibold  text-gray-400 text-center sm:text-3xl">
+      <div className="grid grid-cols-1 mt-10 lg:mt-20   lg:grid-cols-8 sm:gap-4">
+        <div className="lg:col-start-2 mt-10 lg:mt-20 mx-0 sm:mx-4 lg:col-end-8">
+          <h3 className="text-2xl font-sans font-semibold  dark:text-gray-700 text-gray-300 text-center sm:text-3xl">
             Other Projects
           </h3>
 
-          <div className="grid grid-cols-1  sm:grid-cols-2 mt-10 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1  sm:grid-cols-2 mt-10 md:grid-cols-3 dark:gap-1 gap-4">
             {project_item.map((item, index) => (
               <div
                 key={item.id}
@@ -120,7 +120,7 @@ export default function OtherProject() {
                 data-aos={`${
                   index % 2 === 0 ? "zoom-out-right" : "zoom-out-left"
                 }`}
-                className="bg-gray-800  hover:bg-zinc-800 content-end  transform transition duration-500 hover:scale-105	 rounded  w-full"
+                className="dark:bg-gray-200 bg-gray-800  hover:bg-zinc-800 content-end  transform transition duration-500 hover:scale-105	 rounded  w-full"
               >
                 <div className="grid grid-cols-2 mt-10 gap-40 sm:gap-48 md:gap-24 xl:gap-40 lg:48">
                   <div>
@@ -144,7 +144,7 @@ export default function OtherProject() {
                         <button
                           type="button"
                           disabled
-                          class="cursor-not-allowed rounded-full bg-gray-800 text-white shadow-sm"
+                          class="cursor-not-allowed rounded-full dark:bg-gray-200 bg-gray-800 text-white shadow-sm"
                         >
                           <img src="https://img.icons8.com/material-rounded/28/12B886/video.png" />
                         </button>
@@ -156,7 +156,7 @@ export default function OtherProject() {
                       <a href={`${item.live}`} target="_blank" rel="noreferrer">
                         <button
                           type="button"
-                          className="rounded-full ml-3 bg-gray-800  text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                          className="rounded-full ml-3 dark:bg-gray-200 bg-gray-800  text-white shadow-sm hover:dark:bg-gray-200 bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                           <img src="https://img.icons8.com/ios-filled/28/12B886/open-in-popup.png" />
                         </button>
@@ -166,10 +166,10 @@ export default function OtherProject() {
                     )}
                   </div>
                 </div>
-                <h1 className="text-xl font-sans font-semibold hover:text-green-300  text-gray-400 sm:text-2xl px-5">
+                <h1 className="text-xl font-sans font-semibold hover:text-green-300  dark:text-gray-700 text-gray-300 sm:text-2xl px-5">
                   {item.title}
                 </h1>
-                <p className="mt-6  font-sans text-sm sm:text-sm  leading-8 font-semibold px-5 hover:text-gray-300 text-gray-400">
+                <p className="mt-6  font-sans text-sm sm:text-sm  leading-8 font-semibold px-5 hover:text-gray-300 dark:text-gray-700 text-gray-300">
                   {item.description}
                 </p>
                 <div className="px-5">
@@ -177,7 +177,7 @@ export default function OtherProject() {
                     return (
                       <button
                         type="button"
-                        className="rounded bg-transparent pr-2 text-end py-2.5 font-sans my-2 text-xs font-semibold text-gray-500 shadow-sm hover:bg-gray-800"
+                        className="rounded bg-transparent pr-2 text-end py-2.5 font-sans my-2 text-xs font-semibold text-gray-500 shadow-sm hover:dark:bg-gray-200 bg-gray-800"
                       >
                         {itemItect}
                       </button>

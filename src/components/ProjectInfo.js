@@ -8,29 +8,22 @@ export default function Work() {
 
   return (
     <>
-      <div className="grid grid-cols-1 mt-20   lg:grid-cols-8 " id="Work">
+      <div className="grid grid-cols-1 mt-10 xl:mt-5 2xl:mt-20   lg:grid-cols-8 " id="Work">
         
-        <div className="lg:col-start-2 mt-20 lg:col-end-8">
-        <div class=" right-[70%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
-  <div class=" bottom-44 -left-64 hidden h-[150px] w-[900px] -rotate-45 rounded-3xl bg-gradient-to-r from-violet-600 to-indigo-800 opacity-30 blur-3xl filter dark:block lg:bottom-24 lg:-left-20 lg:h-70 lg:w-[250px] lg:-rotate-12 lg:opacity-20 xl:h-40 xl:w-[400px]"></div>
-  <div class=" left-[70%] top-70 hidden rotate-12 rounded-3xl bg-sky-800 opacity-90 blur-3xl filter dark:opacity-30 lg:h-32 lg:w-[450px] dark:lg:block xl:h-44 xl:w-[600px]"></div>
-  <div class=" h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:bottom-24 lg:-left-70 lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-left-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
-  <div class=" right-[70%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter dark:block dark:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
-  <div class=" h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:bottom-20 lg:-left-70 lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-left-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
-  <div class=" hidden h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter dark:hidden lg:top-24 lg:-right-70 lg:block lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-right-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
-  <div class=" hidden h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter dark:hidden lg:top-20 lg:-right-70 lg:block lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-right-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
+        <div className="lg:col-start-2 mt-10 xl:mt-5 2xl:mt-20 lg:col-end-8">
+       
      
-          <div className="relative my-7 -mt-[45%] md:mt-4">
+          <div className="relative   md:mt-4">
             <div
               className="absolute inset-0 flex items-center"
               aria-hidden="true"
             >
-              <div className="w-[20%] ml-[60%] sm:w-[40%] md:ml-[50%] sm:ml-[60%] lg:ml-[60%] xl:ml-[50%] 2xl:ml-[35%] border-t-2 mt-1 border-gray-700" />
+              <div className="w-[20%] ml-[70%] sm:w-[40%] md:ml-[50%] sm:ml-[60%] lg:ml-[60%] xl:ml-[50%] 2xl:ml-[35%] border-t-2 mt-1 border-gray-700" />
             </div>
             <div className="relative flex justify-start">
-              <h1 className="text-2xl font-oswald font-bold  text-gray-400 sm:text-3xl md:text-4xl mx-8">
-                {" "}
-                <span className="text-green-300">03. </span> Some Things I’ve
+              <h1 className="text-2xl font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-3xl md:text-4xl mx-8">
+               
+                <span className="dark:text-green-700 text-green-400">03. </span> Some Things I’ve
                 Built{" "}
               </h1>
             </div>
@@ -66,14 +59,14 @@ export default function Work() {
               data-aos="zoom-out-left"
               className="md:col-start-5 h-30 md:col-end-8  z-15 inset-0 top-5 relative mt-12"
             >
-              <p className="text-start md:text-end px-5 md:px-0 text-green-300  font-sans font-semibold">
+              <p className="text-start md:text-end px-5 md:px-0 dark:text-green-700 text-green-400  font-sans font-semibold">
                 Featured Project
               </p>
-              <h1 className="text-2xl text-start md:text-end px-5 md:px-0 font-oswald font-bold  text-gray-400 sm:text-2xl">
+              <h1 className="text-2xl text-start md:text-end px-5 md:px-0 font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-2xl">
                 Signaflow
               </h1>
-              <div className=" w-[100%] my-5 rounded bg-gray-800">
-                <p className="p-7 text-start md:text-end font-sans font-semibold text-gray-400 text-sm">
+              <div className=" w-[100%] my-5 rounded dark:bg-white bg-gray-800">
+                <p className="p-7 text-start md:text-end font-sans font-semibold dark:text-gray-700 text-gray-400 text-sm">
                   Signalflow is a comprehensive home automation system that
                   enables users to effortlessly control their home's lighting
                   and shading from anywhere in the world. This system is
@@ -92,31 +85,31 @@ export default function Work() {
               <div className="text-start md:text-end">
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Vue
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Vuetify
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Vuex
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Firebase
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Git
                 </button>
@@ -132,7 +125,7 @@ export default function Work() {
                     href="https://dev.signalflow.tech/projects/160marinabay/7579FkI4YJVE9ztz1Lcp"
                     target="_blank"
                     rel="noreferrer"
-                    className="rounded-full ml-3 bg-gray-800 p-2 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-full ml-3 dark:bg-white bg-gray-800 p-2 text-white shadow-sm hover:dark:bg-white bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     {" "}
                     <img src="https://img.icons8.com/ios-filled/32/12B886/circled-up-right-2.png" />
@@ -148,14 +141,14 @@ export default function Work() {
               data-aos="zoom-out-right"
               className="md:col-start-1 h-30 md:col-end-4 mt-6 md:z-10 md:inset-4 top-0 relative  mt-12"
             >
-              <p className="text-start text-green-300 mt-5 px-5 md:px-0 font-sans font-semibold">
+              <p className="text-start dark:text-green-700 text-green-400 mt-5 px-5 md:px-0 font-sans font-semibold">
                 Featured Project
               </p>
-              <h1 className="text-2xl text-start  px-5 md:px-0 font-oswald font-bold  text-gray-400 sm:text-2xl">
+              <h1 className="text-2xl text-start  px-5 md:px-0 font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-2xl">
                 Apukuski
               </h1>
-              <div className=" w-[100%] md:w-[110%] my-5 rounded bg-gray-800">
-                <p className="p-7 text-start font-sans font-semibold text-gray-400 text-sm">
+              <div className=" w-[100%] md:w-[110%] my-5 rounded dark:bg-white bg-gray-800">
+                <p className="p-7 text-start font-sans font-semibold dark:text-gray-700 text-gray-400 text-sm">
                   Apukuski is a movie and delivery service that allows users to
                   select multiple locations for pick-up and drop-off. Using
                   Google Maps API, the system calculates the delivery price
@@ -169,37 +162,37 @@ export default function Work() {
               <div className="text-start">
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Vue
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Bootstrap
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Vuex
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Golang
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800 hidden  sm:inline "
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800 hidden  sm:inline "
                 >
                   Firebase
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Git
                 </button>
@@ -213,7 +206,7 @@ export default function Work() {
                   <button
                     type="button"
                     disabled
-                    class="cursor-not-allowed rounded-full bg-gray-800 p-2 text-white shadow-sm "
+                    class="cursor-not-allowed rounded-full dark:bg-white bg-gray-800 p-2 text-white shadow-sm "
                   >
                     <img src="https://img.icons8.com/ios-filled/32/12B886/circled-play.png" />
                   </button>
@@ -225,7 +218,7 @@ export default function Work() {
                 >
                   <button
                     type="button"
-                    className="rounded-full ml-3 bg-gray-800 p-2 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-full ml-3 dark:bg-white bg-gray-800 p-2 text-white shadow-sm hover:dark:bg-white bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     <img src="https://img.icons8.com/ios-filled/32/12B886/circled-up-right-2.png" />
                   </button>
@@ -289,50 +282,50 @@ export default function Work() {
               data-aos="zoom-out-left"
               className="md:col-start-5 h-30 md:col-end-8  z-15 inset-0 -top-0 relative mt-12"
             >
-              <p className="text-start md:text-end px-5 md:px-0 text-green-300 mt-10 font-sans font-semibold">
+              <p className="text-start md:text-end px-5 md:px-0 dark:text-green-700 text-green-400 mt-10 font-sans font-semibold">
                 Featured Project
               </p>
-              <h1 className="text-2xl text-start md:text-end px-5 md:px-0 font-oswald font-bold  text-gray-400 sm:text-2xl">
+              <h1 className="text-2xl text-start md:text-end px-5 md:px-0 font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-2xl">
                 DefiBids
               </h1>
-              <div className=" w-[100%] my-5 rounded bg-gray-800">
-                <p className="p-7 text-start md:text-end font-sans font-semibold text-gray-400 text-sm">
+              <div className=" w-[100%] my-5 rounded dark:bg-white bg-gray-800">
+                <p className="p-7 text-start md:text-end font-sans font-semibold dark:text-gray-700 text-gray-400 text-sm">
                   DefiBids is a cryptocurrency auction site that allows users to
                   bid on various tokens and NFTs. The platform utilizes
                   blockchain technology to ensure transparency and security in
                   the bidding process. With DefiBids, users can buy and sell
-                  digital assets in a decentralized, peer-to-peer marketplace and my role was <span className="text-green-300">designe</span>
+                  digital assets in a decentralized, peer-to-peer marketplace and my role was <span className="dark:text-green-700 text-green-400">designe</span>
                   
                 </p>
               </div>
               <div className="text-start md:text-end">
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Node Js
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Bootstrap
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   Javascript
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800"
+                  className="rounded bg-transparent px-4 text-end py-2.5 font-sans font-semibold my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800"
                 >
                   jQuery
                 </button>
                 <button
                   type="button"
-                  className="rounded bg-transparent px-4 text-end py-2.5 my-2 text-sm font-bold text-gray-400 shadow-sm hover:bg-gray-800 hidden  sm:inline"
+                  className="rounded bg-transparent px-4 text-end py-2.5 my-2 text-sm font-bold dark:text-gray-700 text-gray-400 shadow-sm hover:dark:bg-white bg-gray-800 hidden  sm:inline"
                 >
                   Git
                 </button>
@@ -346,7 +339,7 @@ export default function Work() {
                   <button
                     type="button"
                     disabled
-                    class="cursor-not-allowed rounded-full bg-gray-800 p-2 text-white shadow-sm "
+                    class="cursor-not-allowed rounded-full dark:bg-white bg-gray-800 p-2 text-white shadow-sm "
                   >
                     <img src="https://img.icons8.com/ios-filled/32/12B886/circled-play.png" />
                   </button>
@@ -358,7 +351,7 @@ export default function Work() {
                 >
                   <button
                     type="button"
-                    className="rounded-full ml-3 bg-gray-800 p-2 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-full ml-3 dark:bg-white bg-gray-800 p-2 text-white shadow-sm hover:dark:bg-white bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     <img src="https://img.icons8.com/ios-filled/32/12B886/circled-up-right-2.png" />
                   </button>
