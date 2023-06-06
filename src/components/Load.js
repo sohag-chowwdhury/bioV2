@@ -1,18 +1,30 @@
 import { TypeAnimation } from "react-type-animation";
+import '../css/effect.css';
+
 function  Load () {
     return (
         <div
-          className="overflow-hidden light:bg-white bg-gray-900 pt-[58%] content-center sm:pt-[25%]"
+          className="bg__all relative  overflow-hidden light:bg-white bg-gray-900 pt-[58%] content-center sm:pt-[20%]"
           style={{ height: "100vh" }}
         >
-          <div style={{ margin: "auto" }}>
+          <div class="absolute right-[28%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter light:block light:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
+          <div class="absolute bottom-44 -left-64 hidden h-[150px] w-[900px] -rotate-45 rounded-3xl bg-gradient-to-r from-violet-600 to-indigo-800 opacity-30 blur-3xl filter light:block lg:bottom-24 lg:-left-20 lg:h-28 lg:w-[250px] lg:-rotate-12 lg:opacity-20 xl:h-40 xl:w-[400px]"></div>
+          <div class="absolute left-[28%] top-28 hidden rotate-12 rounded-3xl bg-sky-800 opacity-90 blur-3xl filter light:opacity-30 lg:h-32 lg:w-[450px] light:lg:block xl:h-44 xl:w-[600px]"></div>
+          <div class="absolute h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter light:hidden lg:bottom-24 lg:-left-28 lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-left-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
+          <div class="absolute right-[28%] top-0 hidden h-[150px] w-[200px] rotate-12 rounded-3xl bg-gradient-to-l from-blue-600 to-sky-400 opacity-20 blur-3xl filter light:block light:opacity-30 lg:top-44 lg:-right-20 lg:h-72 lg:w-[350px] xl:h-80 xl:w-[500px]"></div>
+          <div class="absolute h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter light:hidden lg:bottom-20 lg:-left-28 lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-left-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
+          <div class="absolute hidden h-16 w-[600px] rotate-[-40deg] rounded-3xl bg-sky-400 opacity-10 blur-2xl filter light:hidden lg:top-24 lg:-right-28 lg:block lg:h-12 lg:w-[600px] lg:opacity-30 lg:blur-2xl xl:-right-40 xl:h-4 xl:w-[700px] xl:opacity-100"></div>
+          <div class="absolute hidden h-14 w-[600px] rotate-[-40deg] rounded-3xl bg-purple-400 opacity-30 blur-2xl filter light:hidden lg:top-20 lg:-right-28 lg:block lg:h-10 lg:w-[600px] lg:opacity-20 lg:blur-xl xl:-right-40 xl:h-2 xl:w-[800px] xl:opacity-100"></div>
+          <div  style={{ margin: "auto" }}>
+          
             <img
-              className="w-28	 m-auto"
-              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/74c5bbe5-3f63-4716-a290-efa5c0c1a370/dcn4y06-7330d595-3447-4fc6-a54a-d93de1a02fbd.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc0YzViYmU1LTNmNjMtNDcxNi1hMjkwLWVmYTVjMGMxYTM3MFwvZGNuNHkwNi03MzMwZDU5NS0zNDQ3LTRmYzYtYTU0YS1kOTNkZTFhMDJmYmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W_w8MS7BH1LDoxRg0pAMGhgip24WKXry81MsrMafC3I"
+              className="w-36	 m-auto"
+              src="https://www.bluefrogrobotics.com/wp-content/resources/BUDDY3D/Ressources/img/emoji/ClinDOeil_Big.gif"
             ></img>
+           
             <h1 style={{ textAlign: "center" }}>
               <TypeAnimation
-                className="text-xl font-oswald font-bold  text-green-400 sm:text-xl"
+                className="text-xl font-sasn font-semibold mt-2 text-gray-300 sm:text-2xl"
                 sequence={[
                   "Javascript", // Types 'One'
                   300, // Waits 1s
@@ -28,6 +40,7 @@ function  Load () {
               />
             </h1>
           </div>
+          
         </div>
       );
 }

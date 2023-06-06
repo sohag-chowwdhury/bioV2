@@ -1,6 +1,8 @@
 import { faFolder } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../css/aboutStyle.css";
+import "../css/effect.css";
+
 
 export default function OtherProject() {
   const project_item = [
@@ -112,7 +114,7 @@ export default function OtherProject() {
             Other Projects
           </h3>
 
-          <div className="grid grid-cols-1  sm:grid-cols-2 mt-10 md:grid-cols-3 dark:gap-1 gap-4">
+          <div className="grid grid-cols-1 mx-2 sm:mx-0 sm:grid-cols-2 mt-10 md:grid-cols-3 dark:gap-1 gap-4">
             {project_item.map((item, index) => (
               <div
                 key={item.id}
@@ -120,13 +122,13 @@ export default function OtherProject() {
                 data-aos={`${
                   index % 2 === 0 ? "zoom-out-right" : "zoom-out-left"
                 }`}
-                className="dark:bg-gray-200 bg-gray-800  hover:bg-zinc-800 content-end  transform transition duration-500 hover:scale-105	 rounded  w-full"
+                className="dark:bg-gray-200 bg-gray-800 gap-4 bg__all hover:bg-zinc-800 content-end  transform transition duration-500 hover:scale-105	 rounded  w-full"
               >
-                <div className="grid grid-cols-2 mt-10 gap-40 sm:gap-48 md:gap-24 xl:gap-40 lg:48">
+                <div className="grid grid-cols-2 mt-10  gap-40 sm:gap-48 md:gap-24 xl:gap-40 lg:48">
                   <div>
-                    {" "}
+                    
                     <a>
-                      {" "}
+                      
                       <FontAwesomeIcon
                         className="text-green-400 mx-2 p-3"
                         size="2xl"

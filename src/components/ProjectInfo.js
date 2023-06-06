@@ -29,7 +29,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div className="grid  grid-cols-1 md:grid-cols-8 -mt-[5%]  md:mt-12">
+          <div className="grid  grid-cols-1 mx-2 sm:mx-0 md:grid-cols-8 -mt-[5%]  md:mt-12">
             <div
               data-aos-duration="1000"
               data-aos="zoom-out-right"
@@ -65,7 +65,7 @@ export default function Work() {
               <h1 className="text-2xl text-start md:text-end px-5 md:px-0 font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-2xl">
                 Signaflow
               </h1>
-              <div className=" w-[100%] my-5 rounded dark:bg-white bg-gray-800">
+              <div className=" w-[100%] bg__all my-5 rounded dark:bg-white bg-gray-800">
                 <p className="p-7 text-start md:text-end font-sans font-semibold dark:text-gray-700 text-gray-400 text-sm">
                   Signalflow is a comprehensive home automation system that
                   enables users to effortlessly control their home's lighting
@@ -135,7 +135,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div className="grid  grid-cols-1 md:grid-cols-8 mt-12">
+          <div className="grid  grid-cols-1 mx-2 sm:mx-0 md:grid-cols-8 mt-12">
             <div
               data-aos-duration="1000"
               data-aos="zoom-out-right"
@@ -147,7 +147,7 @@ export default function Work() {
               <h1 className="text-2xl text-start  px-5 md:px-0 font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-2xl">
                 Apukuski
               </h1>
-              <div className=" w-[100%] md:w-[110%] my-5 rounded dark:bg-white bg-gray-800">
+              <div className=" bg__all w-[100%] md:w-[110%] my-5 rounded dark:bg-white bg-gray-800">
                 <p className="p-7 text-start font-sans font-semibold dark:text-gray-700 text-gray-400 text-sm">
                   Apukuski is a movie and delivery service that allows users to
                   select multiple locations for pick-up and drop-off. Using
@@ -252,7 +252,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div className="grid  grid-cols-1 md:grid-cols-8 top-10 mt-0">
+          <div className="grid  grid-cols-1 mx-2 sm:mx-0 md:grid-cols-8 top-10 mt-0">
             <div
               data-aos-duration="1000"
               data-aos="zoom-out-right"
@@ -288,7 +288,7 @@ export default function Work() {
               <h1 className="text-2xl text-start md:text-end px-5 md:px-0 font-oswald font-bold  dark:text-gray-700 text-gray-400 sm:text-2xl">
                 DefiBids
               </h1>
-              <div className=" w-[100%] my-5 rounded dark:bg-white bg-gray-800">
+              <div className="bg__all w-[100%] my-5 rounded dark:bg-white bg-gray-800">
                 <p className="p-7 text-start md:text-end font-sans font-semibold dark:text-gray-700 text-gray-400 text-sm">
                   DefiBids is a cryptocurrency auction site that allows users to
                   bid on various tokens and NFTs. The platform utilizes

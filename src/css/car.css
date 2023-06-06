@@ -1,0 +1,21 @@
+.game {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: #000;
+}
+
+.paddle {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}

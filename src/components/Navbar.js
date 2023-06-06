@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import { useWheel } from "../Context/Wheel";
+import '../css/effect.css';
 
 
 import { Disclosure } from "@headlessui/react";
@@ -27,7 +28,7 @@ export default function Navbar({value}) {
   return (
     <Disclosure
       as="nav"
-      className="dark:bg-white bg-gray-900 sticky z-20 top-0  h-15   shadow-xs  border-b dark:border-gray-300 border-gray-800"
+      className=" dark:bg-white bg-gray-900 sticky z-20 top-0  h-15   shadow-xs  border-b dark:border-gray-300 border-gray-800"
     >
       {({ open }) => (
         <>
@@ -116,10 +117,10 @@ export default function Navbar({value}) {
                   </div> 
                 </div>
               </div>
-                 <button onClick={()=>moodChange('light')} className={`${modeValue ==='light' ? 'hidden mx-2' : ''}`} ><img width="32" className="mx-2 lg:mx-8" height="32" src="https://img.icons8.com/emoji/32/crescent-moon-emoji.png" alt="crescent-moon-emoji"/></button>
+                 <button onClick={()=>moodChange('light')} className={`${modeValue ==='light' ? 'hidden mx-2' : ''}`} ><img width="32" className="mx-2 lg:mx-10" height="32" src="https://img.icons8.com/emoji/32/crescent-moon-emoji.png" alt="crescent-moon-emoji"/></button>
 
-                 <button onClick={()=>moodChange('dark')} className={`${modeValue ==='light' ? '' : 'hidden mx-2'}`} ><img width="36" className="mx-2 lg:mx-8" height="36" 
-                 src="https://img.icons8.com/doodle/48/sun--v1.png" alt="crescent-moon-emoji"/></button>
+                 <button onClick={()=>moodChange('dark')} className={`${modeValue ==='light' ? '' : 'hidden mx-2'}`} ><img width="56" className="mx-2 lg:mx-8" height="36" 
+                 src="https://followyourheart.com/wp-content/uploads/2020/11/Sun.gif" alt="crescent-moon-emoji"/></button>
                </div>
           </div>
 

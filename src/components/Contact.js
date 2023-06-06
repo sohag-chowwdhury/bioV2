@@ -1,3 +1,5 @@
+import "../css/effect.css";
+
 function Contact() {
   const review = [
     {
@@ -12,7 +14,7 @@ function Contact() {
       name: "Sebastian",
       Country: "Qproco, CEO ,Poland",
       description:
-        "I enjoyed collaborating with Tanvir. With the first project milestone, he went above and beyond my expectations. And when I asked him if we might alter the project's scope, he agreed to do so for a fair price increase. I'm forward to collaborate with him once more soon.",
+        "I enjoyed collaborating with Sohag. With the first project milestone, he went above and beyond my expectations. And when I asked him if we might alter the project's scope, he agreed to do so for a fair price increase. I'm forward to collaborate with him once more soon.",
       title: "CEO",
       img: "https://cdn3.iconfinder.com/data/icons/avatars-round-flat/33/man5-512.png",
     },
@@ -59,10 +61,10 @@ function Contact() {
           </div>
         </div>
 
-        <div className="sm:col-start-1  md:mt-4 px-0 md:px-12 sm:col-end-12 lg:col-start-2 lg:col-end-8">
+        <div className="sm:col-start-1 mx-2 sm:mx-0  md:mt-4 px-0 md:px-4 sm:col-end-12 lg:col-start-2 lg:col-end-8">
           {review.map((item, index) => (
             <div
-              className="dark:bg-gray-200 bg-gray-800 shadow-xl hover:bg-slate-800 p-2 hover:my-1"
+              className="bg__all2 dark:bg-gray-200 bg-gray-800 shadow-xl hover:bg-slate-800 p-2 hover:my-1"
               data-aos-duration="1500"
               data-aos={`${index % 2 === 0 ? "fade-left" : "fade-right"}`}
               key={item.description}
